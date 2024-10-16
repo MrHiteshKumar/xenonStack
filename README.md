@@ -21,4 +21,8 @@ Once the form passes validation, the login data (email and password) can be sent
 
 You can also handle other actions like redirecting users to a Home page on successful login.
 
+Registration :
+
+![Register](https://github.com/user-attachments/assets/3095d58f-09e0-4b85-bdc6-9374b448735f)
+
 
