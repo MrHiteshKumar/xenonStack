@@ -25,4 +25,7 @@ Registration :
 
 ![Register](https://github.com/user-attachments/assets/3095d58f-09e0-4b85-bdc6-9374b448735f)
 
+The registration page allows new users to create an account by entering details like username, email, phone number, and password. React is used to build the UI, and the Zod library handles form validation. Once the form is submitted and validated successfully, the user is redirected to the login page.
+
+
 
