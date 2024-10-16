@@ -12,6 +12,9 @@ const { default: Credentials } = require("next-auth/providers/credentials");
 // const services = require("./controllers/service-controller");
 
 
+
+
+
 const corsOptions = {
     origin: "http://localhost:5173",
     methods: "GET, POST, PUT, DELETE, PATCH, HEAD",
