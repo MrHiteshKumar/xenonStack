@@ -31,5 +31,12 @@ Home Page :
 
 ![Home](https://github.com/user-attachments/assets/90e474d0-0b9e-4b97-b877-78eb74783b17)
 
+Token Based Authentication :
+
+JWT (JSON Web Token) is used to authenticate users after login. Once a user successfully logs in, a JWT is generated and sent to the client. The token contains encoded user data (e.g., user ID) and is used to verify the user’s identity on subsequent requests.
+
+Bcrypt For Password Hashing :
+
+Passwords are not stored in plain text in the database. Instead, bcrypt is used to hash the password securely before saving it. This ensures that even if the database is compromised, attackers cannot easily retrieve user passwords.
 
 
