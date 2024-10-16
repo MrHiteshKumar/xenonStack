@@ -27,5 +27,9 @@ Registration :
 
 The registration page allows new users to create an account by entering details like username, email, phone number, and password. React is used to build the UI, and the Zod library handles form validation. Once the form is submitted and validated successfully, the user is redirected to the login page.
 
+Home Page :
+
+
+
 
 
