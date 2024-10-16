@@ -1,4 +1,6 @@
-require("dotenv").config();
+require("dotenv").config({
+    path:'./.env'
+});
 const express = require("express");
 const cors = require("cors");
 const app = express();
@@ -16,7 +18,8 @@ const { default: Credentials } = require("next-auth/providers/credentials");
 
 
 const corsOptions = {
-    origin: "http://localhost:5173",
+    // origin: "http://localhost:5173",
+    origin:process.env.FRONTEND_URL,
     methods: "GET, POST, PUT, DELETE, PATCH, HEAD",
     Credentials:  true,
 
