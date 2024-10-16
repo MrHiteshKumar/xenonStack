@@ -5,11 +5,20 @@ In this login page, React is used for building the user interface, and Zod is em
 
 Login Page :
    
-Form Setup: The login form includes input fields for email and password. Users enter their credentials and submit the form to trigger validation and authentication logic.
+The login form includes input fields for email and password. Users enter their credentials and submit the form to trigger validation and authentication logic.
 
 Authentication :
 
 ![Authentication](https://github.com/user-attachments/assets/aedeaafe-aac1-47f0-a149-0375312bda43)
 
+Zod for Validation :
+
+Zod is used to define a schema that enforces rules on the form inputs. For example, the email must be a valid email address, and the password should meet certain criteria (like minimum length, or specific characters).
+
+Submission :
+
+Once the form passes validation, the login data (email and password) can be sent to an API or authentication service for processing.
+
+You can also handle other actions like redirecting users to a Home page on successful login.
 
 
