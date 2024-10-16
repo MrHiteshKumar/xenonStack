@@ -39,4 +39,8 @@ Bcrypt For Password Hashing :
 
 Passwords are not stored in plain text in the database. Instead, bcrypt is used to hash the password securely before saving it. This ensures that even if the database is compromised, attackers cannot easily retrieve user passwords.
 
+Properties List :
+
+![Property List](https://github.com/user-attachments/assets/4e6c220e-bd03-4a2c-ba9c-46d30e187b64)
+
 
