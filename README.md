@@ -3,10 +3,13 @@
 Login Page in React with Zod Validation
 In this login page, React is used for building the user interface, and Zod is employed for validating the form inputs. The page consists of a simple form where users input their email and password to log in. Here's an overview of how it works:
 
-Login Page
+Login Page :
    
 Form Setup: The login form includes input fields for email and password. Users enter their credentials and submit the form to trigger validation and authentication logic.
 
+Authentication :
+
+![Authentication](https://github.com/user-attachments/assets/aedeaafe-aac1-47f0-a149-0375312bda43)
 
 
 
