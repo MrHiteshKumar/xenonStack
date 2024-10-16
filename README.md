@@ -43,4 +43,14 @@ Properties List :
 
 ![Property List](https://github.com/user-attachments/assets/4e6c220e-bd03-4a2c-ba9c-46d30e187b64)
 
+How They Work Together :
+
+1.	Node.js and Express.js: Handle server-side logic, routing, and API creation.
+   
+2.	JWT: Integrated with Express middleware to manage authentication securely.
+   
+3.	MongoDB: Stores user data, ensuring fast, flexible, and scalable data access.
+   
+4.	bcrypt: Ensures secure password hashing on the backend before storage in MongoDB.
+
 
