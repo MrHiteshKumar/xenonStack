@@ -29,7 +29,7 @@ The registration page allows new users to create an account by entering details 
 
 Home Page :
 
-
+![Home](https://github.com/user-attachments/assets/90e474d0-0b9e-4b97-b877-78eb74783b17)
 
 
 
